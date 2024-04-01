@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker pull sivasuribabu/amazon-payments-prod:latest
+docker pull sivasuribabu/simple-python-flask-app:latest
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 sivasuribabu/amazon-payments-prod:latest
+docker run -d -p 5000:5000 sivasuribabu/simple-python-flask-app:latest
